@@ -5,10 +5,10 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!ans || isNaN(ans) || ans < 0) {
       throw new Error("Not a valid Number");
     } else if (ans == 0) {
-      alert("we donnt root ", ans);
+      alert("we dont root ", ans);
       
     } else {
-        alert("The square root of " + ans + " is " + Math.sqrt(ans).toFixed(2));
+        alert("The square root of " + ans + " is" + Math.sqrt(ans).toFixed(2));
     }
   } catch (err) {
     alert(err.message);
