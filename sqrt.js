@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
       alert("we dont root ", ans);
       
     } else {
-        alert("The square root of " + ans + " is" + Math.sqrt(ans).toFixed(2));
+        alert("The square root of " + ans + " is " + Math.sqrt(ans).toFixed(2));
     }
   } catch (err) {
     alert(err.message);
